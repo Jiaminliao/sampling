@@ -40,30 +40,48 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#`3
 
 Describe the purpose of your survey:
+
 ```
-write your answer here...
+The purpose of the survey is to examine the relationship between age and music taste, with a specific focus on perceptions of popular music. The survey is used to study the differences in music preferences across age groups and how individuals change in their music taste across different stages of their life. The collected results might be used in an academic research paper intended for publication.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: Adults in Toronto. 
+Sampling frame: Individuals who are accessible through university (including students and staffs at University of Toronto) and community recruitment in Toronto.
+Sampling units: individuals.
+Observational units: individual survey responses.
+Overall sampling strategy: Stratified sampling by age groups such as 18-25, 26-35, 36-45, 46-55, 56-65, 65+. Participants will be recruited through multiple channels including sending emails with survey links to registered UofT students and staffs, posting survey link on social media platforms like facebook, instagrams, etc., and placing posters in community centers and libraries to reduce selection bias associated with single source.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your age? (Please enter your age in years)
+2. How often do you listen to music?
+   - Daily
+   - A few times per week
+   - Occasionally
+   - Rarely
+3. Which three music genres do you listen to most often?
+   (Select up to three)
+   Pop, Jazz, Classical, Rock, ……, Other (please specify)
+4. On a scale of 1–5, how much do you like today’s popular music?
+    (1 = strongly dislike, 5 = strongly like)
+5. Please briefly explain your answer. (Optional)
+6. For each of the following age ranges, which music genre(s) did you like most?
+   (Select up to two for each age range, if applicable)
+   - Ages 12–17
+   - Ages 18–25
+   - Ages 26–35
+   - Ages 36–45
+   - Ages 46–55
+   - Ages 56–65
+7. To what extent do you think age influences music taste?
+   (0 = Not at all, 10 = A great deal)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +89,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Two-stage stratified probability sampling (survey with a cross-sectional design).
+2. Sample size: A field sample of approximately 50,000 units was used. 
+3. Target population: All persons 15 years of age and older living in the ten provinces of Canada. It excludes residents of institutions.
+4. Sampling frame: The sampling frame combines landline and cellular telephone numbers from the Census and administrative sources with Statistics Canada’s dwelling frame.
+5. Survey mode(s) : Electronic questionnaire or through CATI (computer assisted telephone interviewing).
+6. Timeline: 2018-09-04 to 2018-12-28 for data collection, reference period: 12 months preceding the interview date
+7. Response rate: 41.9%
+8. Weights: Person-level estimation weights: Each respondent represents several individuals in the target population. The basic person weight (WGHT_PER) is provided for analysis at the individual level. The weights were adjusted to account for the subsampling of non-volunteers and were calibrated so that the weighted income distribution matches the 2017 CIS distribution by province. In addition to the estimation weights, bootstrap weights were performed for design-based variance estimation.
+9. Data processing:  Used the SSPE set of generalized processing steps. Edits were performed automatically and manually at various stages of processing including family, consistency and flow edits. Error detection was implemented through built-in CATI edits with additional verification and correction conducted at head office. 
+10. Cleaning, imputation, etc: See above answer for cleaning. For missing or incomplete data, imputation was primarily carried out using donor imputation based on a score function to identify the nearest donor record. When donor imputation was not possible, mean imputation was applied. 
+11. Sources of error: Non-sampling error: coverage error (e.g., households without telephones) and non-response (both family or individual levels), response error, processing error. Sampling error/variability was estimated using bootstrap weights. 
+12. Limitations, known biases, etc: Telephone coverage exclusion; non-response bias - reduced by adjustments to the survey weights and extracted data from administrative.
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 ```
 
 ## Rubric
